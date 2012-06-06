@@ -1,0 +1,19 @@
+A small jQuery-UI scrollable tabs extension. 
+Below I put the code I wrote for a simple jQuery-UI extension that allows scroll jquery-ui-tabs. It is just ~50 lines of code, and does its work (as far as I know) flawlessly. It was originally inspired on the jquery.scrollaletab.js extension, but this extension is far more concise. It needs jquery.scrollTo-1.4.2.js to work and was written using jQuery 1.6.2 and jquery-ui 1.8.16.
+
+Enjoy.
+
+Usage:
+
+Save the contents in a file called 'jquery.simplescrollabletab.js'. Include it in your HTML file <head />:
+
+<script type="text/javascript" src="js/jquery.simplescrollabletab.js"></script>   
+
+Put a <div> tag:
+
+<div id='myTabs'></div>  
+
+And in your JS put the code below:
+
+$('#myTabs').tabs().simpleScrollableTab();  
+
